@@ -1,13 +1,13 @@
 ﻿
 import os
 
-from dialent.standard import Standard
-from dialent.task1.test import Test
+from scripts.dialent.standard import Standard
+from scripts.dialent.task1.test import Test
 
-from dialent.task1.util import loadAllStandard, loadAllTest
+from scripts.dialent.task1.util import loadAllStandard, loadAllTest
 
-from dialent.common.evalmatrix import EvaluationMatrix
-from dialent.common.metrics import Metrics
+from scripts.dialent.common.evalmatrix import EvaluationMatrix
+from scripts.dialent.common.metrics import Metrics
 
 #########################################################################################
 

@@ -1,4 +1,3 @@
--DOCSTART- O
 Александр 0 9 B-Person
 Вертинский 10 10 E-Person
 . 20 1 O
