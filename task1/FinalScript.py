@@ -2,6 +2,8 @@ import os
 import pymorphy2
 import numpy as np
 import string
+
+from IPython import get_ipython
 from scipy.sparse import csr_matrix
 from nltk.tree import Tree
 from nltk.util import LazyMap, LazyConcatenation
@@ -69,16 +71,19 @@ class Generator:
     def fit_transform(self, data, answers, path, clf=ExtraTreesClassifier()):
 
         # Eсли данные сохранены - просто берем их из файла #
+        '''
         if os.path.exists(path):
             sparse_features_list = self.load_sparse_csr(path)
             return sparse_features_list
-
+        '''
         # Добавляем пустые "слова" в начало и конец (для контекста) #
         data = [["" for i in range(len(self._column_types))] for i in range(self._context_len)] + data
         data = data + [["" for i in range(len(self._column_types))] for i in range(self._context_len)]
 
         # Находим индексы столбцов в переданных данных #
         word_index = self._column_types.index("WORD")
+        '''
+        # тоже юзлес хуйня
         if "POS" in self._column_types:
             pos_index = self._column_types.index("POS")
         else:
@@ -87,7 +92,7 @@ class Generator:
             chunk_index = self._column_types.index("CHUNK")
         else:
             chunk_index = None
-
+        '''
         # Список признаков (строка == набор признаков для слова из массива data) #
         features_list = []
 
@@ -95,26 +100,30 @@ class Generator:
         for k in range(len(data) - 2 * self._context_len):
             arr = []
             i = k + self._context_len
-
+            '''
+            # pos_index всегда None так что удаляем нахуй иф, а елс оставляем
             if pos_index is not None:
                 pos_arr = [data[i][pos_index]]
                 for j in range(1, self._context_len + 1):
                     pos_arr.append(data[i - j][pos_index])
                     pos_arr.append(data[i + j][pos_index])
             else:
-                pos_arr = [self.get_pos_tag(data[i][word_index])]
-                for j in range(1, self._context_len + 1):
-                    pos_arr.append(self.get_pos_tag(data[i - j][word_index]))
-                    pos_arr.append(self.get_pos_tag(data[i + j][word_index]))
+            '''
+            pos_arr = [self.get_pos_tag(data[i][word_index])]
+            for j in range(1, self._context_len + 1):
+                pos_arr.append(self.get_pos_tag(data[i - j][word_index]))
+                pos_arr.append(self.get_pos_tag(data[i + j][word_index]))
             arr += pos_arr
 
+            '''
+            #тоже нахуй
             if chunk_index is not None:
                 chunk_arr = [data[i][chunk_index]]
                 for j in range(1, self._context_len + 1):
                     chunk_arr.append(data[i - j][chunk_index])
                     chunk_arr.append(data[i + j][chunk_index])
                 arr += chunk_arr
-
+            '''
             capital_arr = [self.get_capital(data[i][word_index])]
             for j in range(1, self._context_len + 1):
                 capital_arr.append(self.get_capital(data[i - j][word_index]))
@@ -156,7 +165,7 @@ class Generator:
         for y in range(len(features_list)):
             for x in range(self._number_of_columns):
                 features_list[y][x] = self.get_feature(x, features_list[y][x])
-
+        #print(dict([(i, preprocessing.LabelEncoder()) for i in range(len(features_list[0]))]))
         # Оставшиеся признаки бинаризуем #
         self._multi_encoder = ColumnApplier(
             dict([(i, preprocessing.LabelEncoder()) for i in range(len(features_list[0]))]))
@@ -402,6 +411,7 @@ class ConllCorpusReaderX(CorpusReader):
                  chunk_types=None, root_label='S', pos_in_tree=False,
                  srl_includes_roleset=True, encoding='utf8',
                  tree_class=Tree, tagset=None):
+        #убрать этот цикл для проверки
         for columntype in columntypes:
             if columntype not in self.COLUMN_TYPES:
                 raise ValueError('Bad column type %r' % columntype)
@@ -450,6 +460,7 @@ class ConllCorpusReaderX(CorpusReader):
         return grids
 
     def get_ne(self, fileids=None, tagset=None):
+        #вроде бы проверка ниже лишняя
         self._require(self.NE)
         def get_ne_inn(grid):
             return self._get_ne(grid, tagset)
@@ -490,6 +501,7 @@ def prepare(dataset):
     factrueval_dev_spans = dict()
     factrueval_dev_objects = dict()
     for file in os.listdir('./'+ dataset + '/'):
+        #if file[:8] == 'book_100':
         if file.endswith('tokens'):
             with open('./' + dataset + '/' + file, 'r+', encoding='utf-8') as file_obj:
                 lines = file_obj.readlines()
@@ -514,6 +526,7 @@ def prepare(dataset):
 
     all_ne = []
     for key, value in factrueval_dev_objects.items():
+    #if value[0] == 'Loc' or value[0] == 'LocOrg':
         spans = value[1:]
         ne = value[0]
         all_tokens = []
@@ -624,5 +637,7 @@ def run_baseline(clf=LogisticRegression()):
 
     print("Weighted Score:", f1_score(Y_test_c_light, Y_pred_c_light, average="weighted", labels=light_labels))
 run_baseline()
-run_baseline(RandomForestClassifier())
-run_baseline(LinearSVC())
+#run_baseline(RandomForestClassifier())
+#run_baseline(LinearSVC())
+
+#get_ipython().system('python scripts\\t1_eval.py -s .\\testset -t .\\results_crf -o .\\output')
