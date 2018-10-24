@@ -17,7 +17,7 @@ import sys
 import os
 import getopt
 
-from scripts.dialent.task1.eval import Evaluator
+from dialent.task1.eval import Evaluator
 
 #########################################################################################
 

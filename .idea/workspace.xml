@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e8915f-2d9e-4726-9379-c1978d02bffb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task1/AnotherDayAnotherTry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/NER CRF.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/NER CRF.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3539.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3539.task1" afterDir="false" />
@@ -25,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3687.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3687.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3688.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3688.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3696.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3696.task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3697.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3697.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3700.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3700.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3702.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3702.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3708.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3708.task1" afterDir="false" />
@@ -35,6 +35,7 @@
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3744.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3744.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3746.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3746.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3752.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3752.task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3756.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3756.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3757.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3757.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3758.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3758.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3760.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3760.task1" afterDir="false" />
@@ -57,13 +58,16 @@
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3790.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3790.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3791.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3791.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3792.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3792.task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3793.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3793.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3794.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3794.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3795.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3795.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3796.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3796.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3797.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3797.task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3798.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3798.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3799.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3799.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3800.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3800.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3801.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3801.task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3802.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3802.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3804.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3804.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3805.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3805.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3806.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3806.task1" afterDir="false" />
@@ -91,6 +95,7 @@
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3881.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3881.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3882.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3882.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3883.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3883.task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3884.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3884.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3885.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3885.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3886.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3886.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3887.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3887.task1" afterDir="false" />
@@ -104,10 +109,12 @@
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3910.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3910.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3915.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3915.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3916.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3916.task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3920.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3920.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3927.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3927.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3928.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3928.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3937.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3937.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3938.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3938.task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3940.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3940.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3942.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3942.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3944.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3944.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3946.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3946.task1" afterDir="false" />
@@ -129,14 +136,14 @@
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3981.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3981.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3982.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3982.task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3983.task1" beforeDir="false" afterPath="$PROJECT_DIR$/factRuEval-2016-practice-master/results_crf/book_3983.task1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/FinalScript.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/FinalScript.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/MyTask.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/AnotherDayAnotherTry.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/task1/AnotherDayAnotherTry.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task1/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/task1/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/devset.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/factrueval_testset.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/factrueval_trainset.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/testset.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/devset.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task1/devset.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/factrueval_testset.npz" beforeDir="false" afterPath="$PROJECT_DIR$/task1/factrueval_testset.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/factrueval_trainset.npz" beforeDir="false" afterPath="$PROJECT_DIR$/task1/factrueval_trainset.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/scripts/dialent/task1/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/scripts/dialent/task1/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/scripts/t1_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/scripts/t1_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/testset.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task1/testset.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +152,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NLPtasks$FinalScript.coverage" NAME="FinalScript Coverage Results" MODIFIED="1540315099394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task1" />
+    <SUITE FILE_PATH="coverage/NLPtasks$FinalScript.coverage" NAME="FinalScript Coverage Results" MODIFIED="1540408931569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task1" />
     <SUITE FILE_PATH="coverage/NLPtasks$NER_CRF.coverage" NAME="NER CRF Coverage Results" MODIFIED="1540290765281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task1" />
     <SUITE FILE_PATH="coverage/NLPtasks$t1_eval.coverage" NAME="t1_eval Coverage Results" MODIFIED="1540066703146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task1/scripts" />
     <SUITE FILE_PATH="coverage/NLPtasks$AnotherDayAnotherTry.coverage" NAME="AnotherDayAnotherTry Coverage Results" MODIFIED="1540311611771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task1" />
@@ -168,12 +175,13 @@
     <session id="1199391846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -209,14 +217,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task1/FinalScript.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="2453">
+              <caret line="618" column="22" selection-start-line="618" selection-start-column="22" selection-end-line="618" selection-end-column="22" />
               <folding>
+                <element signature="e#0#9#0" expanded="true" />
                 <element signature="e#2848#3174#1" />
-                <element signature="e#4145#4496#1" />
-                <element signature="e#7869#12188#0" />
-                <element signature="e#15144#19080#0" />
-                <element signature="e#19489#23259#0" />
                 <marker date="1540315214306" expanded="true" signature="23307:23526" ph="..." />
               </folding>
             </state>
@@ -226,8 +231,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task1/devset.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-799">
-              <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+            <state relative-caret-position="2244">
+              <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -283,9 +288,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1095" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="876" />
+    <option name="width" value="1051" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -293,7 +298,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,6 +314,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,16 +461,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1095" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13913043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33187294" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28850326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27874187" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28524947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -493,8 +497,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/task1/FinalScript.py</url>
-          <line>166</line>
-          <option name="timeStamp" value="29" />
+          <line>164</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -545,20 +549,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../factRuEval-2016-practice-master/NER CRF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1027">
-          <caret line="301" column="9" lean-forward="true" selection-start-line="301" selection-start-column="9" selection-end-line="301" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task1/MyTask.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../factRuEval-2016-practice-master/NER CRF.py" />
+    <entry file="file://$PROJECT_DIR$/task1/MyTask.ipynb" />
     <entry file="file://$PROJECT_DIR$/task1/factrueval_testset.npz">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17" />
@@ -634,25 +626,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task1/devset.txt">
+    <entry file="file://$PROJECT_DIR$/task1/FinalScript.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-799">
-          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+        <state relative-caret-position="2453">
+          <caret line="618" column="22" selection-start-line="618" selection-start-column="22" selection-end-line="618" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#2848#3174#1" />
+            <marker date="1540315214306" expanded="true" signature="23307:23526" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task1/FinalScript.py">
+    <entry file="file://$PROJECT_DIR$/task1/devset.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="e#2848#3174#1" />
-            <element signature="e#4145#4496#1" />
-            <element signature="e#7869#12188#0" />
-            <element signature="e#15144#19080#0" />
-            <element signature="e#19489#23259#0" />
-            <marker date="1540315214306" expanded="true" signature="23307:23526" ph="..." />
-          </folding>
+        <state relative-caret-position="2244">
+          <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
         </state>
       </provider>
     </entry>
